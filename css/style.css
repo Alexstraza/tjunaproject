@@ -1,0 +1,8 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url(ProximaNova_fonts/ttf/ProximaNova_Regular.ttf);
+}
+
+div {
+    font-family: ProximaNova, sans-serif;
+}
