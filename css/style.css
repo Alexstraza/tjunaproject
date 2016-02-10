@@ -8,8 +8,23 @@
     src: url(ProximaNova_fonts/ProximaNova_cocut.cn/ProximaNova-Black.otf);
 }
 
-h1 {
+h1, nav {
     font-family: ProximaNova_Black, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    padding: 10px 0 0;
+}
+
+li {
+    list-style-type: none;
+    float: right;
+    margin-top: 19px; 
+    padding-right: 20px;
 }
 
 #header {
