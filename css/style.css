@@ -20,7 +20,7 @@ a {
     padding: 10px 0 0;
 }
 
-li {
+.nav_list {
     list-style-type: none;
     float: right;
     margin-top: 19px; 
