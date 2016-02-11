@@ -42,3 +42,13 @@ a {
     float: left;
  }
 
+.article_text {
+    font-family: ProximaNova, sans-serif;
+    display: inline-block;
+}
+
+.article_title {
+    margin: 0;
+    font-size: 100px;
+}
+
