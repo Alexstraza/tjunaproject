@@ -17,12 +17,24 @@ h1, nav, h2 {
     font-family: ProximaNova_Black, sans-serif;
 }
 
+li {
+    display: inline;
+}
+
 a {
     text-decoration: none;
     color: white;
     margin: 5px;
     text-align: center;
     padding: 10px 0 0;
+}
+
+li a:hover {
+    color: #008C9E;
+}
+
+a.active {
+    color: #008C9E;
 }
 
 .nav_list {
@@ -72,7 +84,7 @@ a {
 }
 
 .article_title2 {
-    margin-top: -190px;
+    margin-top: 50px;
     margin-left: 10%;
     font-size: 80px;
     width: 50%;
@@ -85,6 +97,7 @@ a {
     margin-left: 10%;
     color: white;
     font-size: 40px;
+    width: 40%;
     
 }
 
@@ -97,12 +110,20 @@ a {
     width: 40%;
 }
 
-.tjuna_mascot2 {
+.tjuna_mascot2{
+    margin-top: -15%;
     float: right;
-    margin-top: -225px;
-    margin-right: 10%;
     width: 213.3px;
     height: 466.6px;
+    margin-right: 10%;
     
+}
+
+.article_title3 {
+    margin-top: 50px;
+    margin-left: 10%;
+    font-size: 80px;
+    width: 51%;
+    color: white;
 }
 

@@ -6,7 +6,7 @@ $(document).ready(function() {
         //Navigation
         menu: '#menu',
         lockAnchors: false,
-        anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage'],
+        anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage', 'endPage'],
         navigation: false,
         navigationPosition: 'right',
         navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide'],
@@ -41,7 +41,7 @@ $(document).ready(function() {
         controlArrows: true,
         verticalCentered: true,
         resize : false,
-        sectionsColor : ['#EF8A1A', '#00B4CC'],
+        sectionsColor : ['#EF8A1A', '#00B4CC', '#343838', '#00B4CC', '#008C9E', '#008C9E', '#343838', '#EF8A1A'],
         paddingTop: '3em',
         paddingBottom: '10px',
         fixedElements: '#header, .footer',
