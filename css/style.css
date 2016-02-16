@@ -8,7 +8,12 @@
     src: url(ProximaNova_fonts/ProximaNova_cocut.cn/ProximaNova-Black.otf);
 }
 
-h1, nav {
+@font-face {
+    font-family: ProximaNova_Bold;
+    src: url(ProximaNova_fonts/ttf/ProximaNova_Bold.ttf);
+}
+
+h1, nav, h2 {
     font-family: ProximaNova_Black, sans-serif;
 }
 
@@ -40,15 +45,64 @@ a {
 
 #tjunalogo {
     float: left;
- }
+ }  
 
 .article_text {
+    width: 40%;
     font-family: ProximaNova, sans-serif;
+    color: white;
     display: inline-block;
+    font-size: 20px;
+    margin-left: 10%;
 }
 
 .article_title {
-    margin: 0;
-    font-size: 100px;
+    color: white;
+    width: 50%;
+    font-size: 80px;
+    margin-left: 10%;
+}
+
+.tjuna_mascot {
+    margin-top: -225px;
+    margin-right: 10%;
+    width: 213.3px;
+    height: 466.6px;
+    float: right;
+}
+
+.article_title2 {
+    margin-top: -190px;
+    margin-left: 10%;
+    font-size: 80px;
+    width: 50%;
+    color: white;
+}
+
+.article_subtitle{
+    font-family: ProximaNova_Bold, sans-serif;
+    margin-top: -40px;
+    margin-left: 10%;
+    color: white;
+    font-size: 40px;
+    
+}
+
+.article_text2 {
+    font-family: ProximaNova, sans-serif;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10%;
+    width: 40%;
+}
+
+.tjuna_mascot2 {
+    float: right;
+    margin-top: -225px;
+    margin-right: 10%;
+    width: 213.3px;
+    height: 466.6px;
+    
 }
 
