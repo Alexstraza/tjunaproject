@@ -37,7 +37,7 @@ a.active {
     color: #008C9E;
 }
 
-.nav_list {
+#nav_list {
     list-style-type: none;
     float: right;
     margin-top: 19px; 
