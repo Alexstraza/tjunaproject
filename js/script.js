@@ -1,4 +1,20 @@
-$(document).ready(function() {
-    $('#fullpage').fullpage();
-        sectionsColor: ['#FF0FF0', '#00B4CC', '#7BAABE', 'whitesmoke', '#000'],
-});
+$(document).ready(function(){
+
+	$("#header").mouseenter(function(){
+		$("#nav_list").fadeIn(400).show();     
+          });
+
+
+	$("#header").mouseleave(function(){
+		$("#nav_list").fadeOut(400).hide();     
+          });
+      });
+
+
+	
+      
+
+	
+	
+
+

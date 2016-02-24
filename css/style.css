@@ -27,7 +27,7 @@ a {
     margin: 5px;
     text-align: center;
     padding: 10px 0 0;
-}
+ }
 
 li a:hover {
     color: #008C9E;
@@ -42,17 +42,22 @@ a.active {
     float: right;
     margin-top: 19px; 
     padding-right: 20px;
-}
+    }
 
 #header {
     text-align: center;
     padding: 10px 0 0 0;
     top: 0px;
     position: fixed;
+    transition: top 0.2s ease-in-out;
     height: 50px;
     width: 100%;
-    background-color: #005F6B;
-    
+    background-color: transparent;
+
+}
+
+.nav-up {
+    top: -40px;
 }
 
 #tjunalogo {
@@ -126,4 +131,11 @@ a.active {
     width: 51%;
     color: white;
 }
+
+@media screen and (max-width: 800px){
+    a {
+        font-size: 13px;
+    }
+}
+
 
