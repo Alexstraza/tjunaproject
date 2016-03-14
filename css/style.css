@@ -1,0 +1,223 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url(ProximaNova_fonts/ttf/ProximaNova_Regular.ttf);
+}
+
+@font-face {
+    font-family: ProximaNova_Black;
+    src: url(ProximaNova_fonts/ProximaNova_cocut.cn/ProximaNova-Black.otf);
+}
+
+@font-face {
+    font-family: ProximaNova_Bold;
+    src: url(ProximaNova_fonts/ttf/ProximaNova_Bold.ttf);
+}
+
+@font-face {
+    font-family: ProximaNova_ExtraBold;
+    src: url(ProximaNova_fonts/ProximaNova_cocut.cn/ProximaNova-Extrabold.otf);
+}
+
+h1, nav, h2 {
+    font-family: ProximaNova_ExtraBold, sans-serif;
+}
+
+
+
+
+
+#header {
+    text-align: center;
+    padding: 10px 0 0 0;
+    top: 0px;
+    position: fixed;
+    transition: top 0.2s ease-in-out;
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+
+}
+
+.nav-up {
+    top: -40px;
+}
+
+#tjunalogo {
+    float: right;
+ }  
+
+.article_text {
+    font-family: ProximaNova, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%; 
+    text-align: center;
+    color: white;
+    font-size: 1.250em;
+}
+
+.article_title {
+    color: white;
+    text-align: center;
+    font-size: 5.000em;
+
+}
+
+.article_title2 {
+    margin-top: 50px;
+    margin-left: 10%;
+    font-size: 5.000em;
+    width: 50%;
+    color: white;
+}
+
+.article_title4 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 5.000em;
+    color: white;
+}
+
+.article_title_development {
+    margin-top: 50px;
+    margin-left: 10%;
+    font-size: 5.000em;
+    width: 50%;
+    color: white;
+}
+
+
+.article_subtitle{
+    font-family: ProximaNova_Bold, sans-serif;
+    margin-top: -40px;
+    margin-left: 10%;
+    color: white;
+    font-size: 40px;
+    width: 40%;
+    
+}
+
+.article_subtitle_development{
+    font-family: ProximaNova_Bold, sans-serif;
+    margin-top: -40px;
+    margin-left: 10%;
+    color: white;
+    font-size: 2.500em;
+    width: 40%;
+    
+}
+
+.article_text2 {
+    font-family: ProximaNova, sans-serif;
+    color: white;
+    display: inline-block;
+    font-size: 1.250em;
+    margin-left: 10%;
+    width: 40%;
+}
+
+.article_text3 {
+    font-family: ProximaNova, sans-serif;
+    color: white;
+    font-size: 1.250em;
+    text-align: center;
+}
+
+.article_text_development {
+    font-family: ProximaNova, sans-serif;
+    color: white;
+    display: inline-block;
+    font-size: 1.250em;
+    margin-left: 10%;
+    width: 40%;
+}
+
+.article_title3 {
+    margin-top: 50px;
+    margin-left: 10%;
+    font-size: 5.000em;
+    width: 51%;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 800px){
+    .article_title{
+        text-align: center;
+        font-size: 2.500em;
+    }
+
+    .article_title2, .article_title_development{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 50%;
+        font-size: 2.500em;
+    }
+
+    .article_title4{
+        text-align: center;   
+        font-size: 2.500em;
+    }
+
+    .article_text, .article_text2, .article_text_development, .article_text3{
+        width: 80%;
+        font-size: 0.938em; 
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .article_subtitle, .article_subtitle_development {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5px;
+        font-size: 1.875em;
+        font-family: ProximaNova_Bold, sans-serif;
+    }
+
+
+}
+
+#section1 {
+    background-size: cover;
+    background-image: url("../img/1.1.jpg");
+}
+
+#section2 {
+    background-size: cover;
+    background-image: url("../img/2.1.jpg");
+}
+
+#section3 {
+    background-size: cover;
+    background-image: url("../img/3.1.jpg");
+}
+
+#section4 {
+    background-size: cover;
+    background-image: url("../img/4.1.jpg");
+}
+
+#section5 {
+    background-size: cover;
+    background-image: url("../img/5.1.jpg");
+}
+
+#section6 {
+    background-size: cover;
+    background-image: url("../img/6.1.jpg");
+}
+
+#steps {
+    font-family: ProximaNova, sans-serif;
+    color: white;
+    display: inline-block;
+    font-size: 1.250em;
+    margin-left: 12%;
+    width: 40%;
+}
+
+@media screen and (max-width: 500px){
+    #tjunalogo{
+        display: none;
+    }
+}
