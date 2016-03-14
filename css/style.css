@@ -1,0 +1,44 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url(ProximaNova_fonts/ttf/ProximaNova_Regular.ttf);
+}
+
+@font-face {
+    font-family: ProximaNova_Black;
+    src: url(ProximaNova_fonts/ProximaNova_cocut.cn/ProximaNova-Black.otf);
+}
+
+h1, nav {
+    font-family: ProximaNova_Black, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    padding: 10px 0 0;
+}
+
+li {
+    list-style-type: none;
+    float: right;
+    margin-top: 19px; 
+    padding-right: 20px;
+}
+
+#header {
+    text-align: center;
+    padding: 10px 0 0 0;
+    top: 0px;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #005F6B;
+    
+}
+
+#tjunalogo {
+    float: left;
+ }
+
